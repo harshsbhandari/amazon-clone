@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+  background-color: #131921;
+  /* Stick to the top even if we scroll down */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  /* Keep its aspect ratio maintained */
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__logo:hover{
+  transform: scale(1.02);
+  transition: transform 330ms ease-in-out;
+  opacity: 1;
+}
+
+.header__search {
+  display: flex;
+  /* Spread out according in the flex direction */
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchIcon {
+  padding: 4px;
+  height: 22px;
+  background-color: #cd9042;
+  border: none;
+}
+
+.header__searchIcon:hover{
+  transform: scale(1.04);
+  transition: transform ease-in-out;
+}
+
+.header__searchIcon:active{
+  background-color: #a88734;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__option:hover{
+  transform: scale(1.04);
+  transition: transform ease-in-out;
+}
+
+.header__nav {
+  display: flex;
+  /* Equally sharing space that they have */
+  justify-content: space-evenly;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
