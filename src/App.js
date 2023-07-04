@@ -7,7 +7,7 @@ import CheckoutPage from "./components/CheckoutPage"
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/amazon-clone">
         <Routes>
           <Route
             path="/"
