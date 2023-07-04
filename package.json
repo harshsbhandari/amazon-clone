@@ -1,6 +1,6 @@
 {
-  "homepage": "http://harshsbhandari.github.io/amazon-clone",
   "name": "amazon-clone",
+  "homepage": "http://harshsbhandari.github.io/amazon-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
